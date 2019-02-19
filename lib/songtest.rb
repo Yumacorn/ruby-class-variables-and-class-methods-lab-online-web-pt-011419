@@ -19,7 +19,7 @@ class Song
   end
 
   def name
-    @name
+    puts @name
   end
 end
 
