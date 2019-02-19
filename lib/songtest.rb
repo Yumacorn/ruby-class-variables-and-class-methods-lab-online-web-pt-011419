@@ -14,7 +14,8 @@ class Song
   end
 
   def self.print_all_song_names
-    self.name
+    @@all.each |song|
+      song.name
     puts "ehh"
     puts @name
   end
