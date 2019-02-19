@@ -15,6 +15,7 @@ class Song
 
   def self.print_all_song_names
     self.name
+    puts "ehh"
   end
 
   def name
