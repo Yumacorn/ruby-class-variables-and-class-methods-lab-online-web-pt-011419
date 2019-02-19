@@ -16,6 +16,7 @@ class Song
   def self.print_all_song_names
     @@all.each do |song|
       song.name
+      puts "yes"
     end
   end
 
