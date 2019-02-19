@@ -12,6 +12,9 @@ class Song
   def self.all
     @@all
   end
+
+  def self.print_all_song_names
+    puts @@all
 end
 
 
