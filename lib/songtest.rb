@@ -16,6 +16,10 @@ class Song
   def self.print_all_song_names
     @@all.name
   end
+
+  def name
+    @name
+  end
 end
 
 
