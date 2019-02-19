@@ -30,4 +30,4 @@ thriller = Song.new("Thriller")
 puts "running!"
 puts Song.all
 
-Song.print_all_song_names
+puts Song.print_all_song_names
