@@ -27,7 +27,5 @@ end
 
 ninety_nine_problems = Song.new("99 Problems")
 thriller = Song.new("Thriller")
-puts "running!"
 puts Song.all
-
 puts Song.print_all_song_names
