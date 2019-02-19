@@ -16,6 +16,7 @@ class Song
   def self.print_all_song_names
     self.name
     puts "ehh"
+    puts @name
   end
 
   def name
@@ -28,4 +29,5 @@ ninety_nine_problems = Song.new("99 Problems")
 thriller = Song.new("Thriller")
 puts "running!"
 puts Song.all
+
 Song.print_all_song_names
